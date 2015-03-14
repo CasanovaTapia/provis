@@ -41,3 +41,7 @@ credits: 'Sunglass Icon made by Yannick Lung. Portfolio site forked from Freelan
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# For deploying on Heroku
+gems: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
