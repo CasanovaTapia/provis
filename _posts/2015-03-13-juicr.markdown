@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 1
+date: 2015-03-13
+project-url: http://juicr.rocks
+source-code: https://github.com/CasanovaTapia/juicr
+img: beer.png
+alt: Juicr Ching Casanova Tapia
+project-date: Present
+client: Personal Project
+client-url: http://casanovatapia.com
+category: Ruby on Rails, Postgresql, Heroku, Bootstrap
+description: Juicr is a platform for connecting Los Angeles creatives. Post a project and the talent you're looking for, or offer your professional service and join a project.
+---
