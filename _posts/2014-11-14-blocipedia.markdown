@@ -4,7 +4,7 @@ modal-id: 4
 date: 2014-11-14
 project-url: http://ct-blocipedia.herokuapp.com
 source-code: https://github.com/CasanovaTapia/blocipedia
-img: pencil.png
+img: Pencil.png
 alt: Blocipedia Ching Casanova Tapia
 project-date: Nov 2015
 client: Personal Project with Bloc

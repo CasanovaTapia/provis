@@ -4,7 +4,7 @@ modal-id: 5
 date: 2014-11-01
 project-url: http://ct-blocmarks.herokuapp.com
 source-code: https://github.com/CasanovaTapia/blocmarks
-img: gps.png
+img: GPS.png
 alt: Blocmarks Ching Casanova Tapia
 project-date: Nov 2015
 client: Personal Project with Bloc

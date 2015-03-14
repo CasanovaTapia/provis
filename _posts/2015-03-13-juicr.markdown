@@ -4,7 +4,7 @@ modal-id: 1
 date: 2015-03-13
 project-url: http://juicr.rocks
 source-code: https://github.com/CasanovaTapia/juicr
-img: beer.png
+img: Beer.png
 alt: Juicr Ching Casanova Tapia
 project-date: Present
 client: Personal Project

@@ -4,7 +4,7 @@ modal-id: 3
 date: 2014-11-28
 project-url: http://ct-blocmetrics.herokuapp.com
 source-code: https://github.com/CasanovaTapia/blocmetrics
-img: satellite.png
+img: Satellite.png
 alt: Blocmetrics Ching Casanova Tapia
 project-date: Nov 2015
 client: Personal Project with Bloc

@@ -4,7 +4,7 @@ modal-id: 6
 date: 2014-10-16
 project-url: http://ct-blocitoff.herokuapp.com
 source-code: https://github.com/CasanovaTapia/blocitoff
-img: clock.png
+img: Clock.png
 alt: Blocitoff Ching Casanova Tapia
 project-date: Oct 2015
 client: Personal Project with Bloc
