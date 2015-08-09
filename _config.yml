@@ -1,8 +1,8 @@
 # Site settings
-title: Ching Casanova Tapia
-email: ching@casanovatapia.com
-url: https://casanovatapia.com
-description: "Ching Casanova Tapia is a web developer based in Los Angeles."
+title: Duo Film
+email: hello@duo-film.com
+url: https://duo-film.com
+description: "Duo Film"
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
@@ -16,28 +16,14 @@ color:
 # Footer settings
 footer:
   copyright: Casanova Tapia
-  location: Status
-  social: Around the Web
-  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: instagram
     url: http://instagram.com/casanovatapia
   - title: twitter
-    url: http://twitter.com/casanovatapia
-  - title: linkedin
-    url: http://linkedin.com/in/casanovatapia
-  - title: github
-    url: http://github.com/casanovatapia
+    url: http://twitter.com/karlelandler
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: Freelancing in Los Angeles
-  - line: Development Intern at Creative Canvas
-
-# Credits content
-credits: 'Sunglass Icon made by Yannick Lung. Portfolio site forked from Freelancer-Theme by jeromelachaud. '
 # Build settings
 markdown: kramdown
 permalink: pretty
