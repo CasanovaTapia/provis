@@ -432,6 +432,9 @@ footer {
   position: relative;
   bottom: -100px;
 }
+footer img {
+    height: 25px;
+  }
 
 
 /* PORTFOLIO MODAL */
