@@ -9,10 +9,11 @@ body {
     font-family: 'Merriweather', serif;
 }
 p {
-    font-size: 20px;
+    font-size: 1em;
+    line-height: 2em;
 }
 p.small {
-    font-size: 16px;
+    font-size: .8em;
 }
 a {
     color: inherit;
@@ -33,6 +34,7 @@ h5,
 h6 {
     text-transform: uppercase;
     font-family: 'Gravitas One', cursive;
+    letter-spacing: .2em;
 }
 
 hr.star-light,
@@ -152,37 +154,38 @@ section.success {
 /* NAV */
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 20px 0;
+        display: none;
+        padding: 5px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
     .navbar-fixed-top a {
-        font-size: 1em;
+        font-size: .8em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
     }
     .navbar-header .brand {
       color: #fff;
-      padding-top: 20px
+      padding-top: 30px
       padding-left: 10px;
     }
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
-        height: 80px;
+        display: block;
+        padding: 5px 0;
+        height: 50px;
     }
     .navbar-fixed-top.navbar-shrink a {
-        font-size: .8em;
+        font-size: .7em;
     }
     .navbar-fixed-top.navbar-shrink .img-nav {
-      width: 50px;
-      padding-top: 20px;
+      width: 40px;
+      padding-top: 10px;
     }
 }
 .navbar {
   background: #2980b9;
-  height: 100px;
 }
 .navbar-default .navbar-nav>li>a
 .navbar a:focus {
@@ -215,8 +218,10 @@ section.success {
 .navbar-default .navbar-toggle {
     border: none;
 }
+
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: #2980b9;
+
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   background-color: #e74c3c;
@@ -242,34 +247,21 @@ section.success {
 /* HEADER */
 header {
     text-align: center;
-    color: #fff;
-    background-image: url("img/7.png");
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-position: top;
+    color: #555;
 }
 header .container {
     height: 100vh;
-    padding-top: 10%;
-    padding-bottom: auto;
 }
 header img {
-    display: block;
-    margin: 0 auto 5%;
-    width: 100px;
+  height:100vh;
 }
 @media(min-width:768px) {
-    header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
-    }
+  header img {
+    padding-top: 15vh;
+  }
 }
 @media(max-width:767px) {
-  header .container {
-    padding-top: 200px;
-  }
+  padding-top: 100px;
 }
 
 
@@ -280,15 +272,21 @@ header img {
 
 /* SUPPORT */
 #support {
+  height: 100vh;
+  background-image:url("../../img/duo6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
-  background: #e67e22;
 }
 
 /* CONTACT */
 #contact {
+  background-image:url("../../img/duo10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
     text-align: center;
-    color: #fff;
-    background: #bdc3c7;
+    color: #444;
+
 }
 .floating-label-form-group {
     position: relative;
