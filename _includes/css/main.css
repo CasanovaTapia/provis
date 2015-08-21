@@ -325,6 +325,10 @@ header {
     text-align: center;
     height: 100vh;
     color: #eee;
+    background-image: url("../../img/duo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 header .logo-top {
   margin: 25vh auto 20px auto;
@@ -423,6 +427,16 @@ header .poster {
 
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #fff;
+}
+
+
+/* CREDITS */
+#credits {
+  height: 100vh;
+  background-image:url("../../img/credits.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom-left;
 }
 
 
