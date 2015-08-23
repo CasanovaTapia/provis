@@ -349,8 +349,9 @@ header .poster {
 }
 .head-logo {
   font-size: 6em;
-  letter-spacing: -.1em;
+  letter-spacing: -.05em;
   margin-top: 35vh;
+  text-transform: none;
 }
 
 /* ABOUT */
