@@ -368,6 +368,9 @@ header .poster {
   background-position: center;
   color: #fff;
 }
+.support-link {
+  color: #bbb;
+}
 
 /* CONTACT */
 #contact {
