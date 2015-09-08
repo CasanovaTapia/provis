@@ -219,17 +219,17 @@ section.success {
 /* NAV */
 @media(min-width:768px) {
     .navbar-fixed-top {
-      display: none;
+      display: block;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
     }
-    /*.navbar-fixed-top a {
+    .navbar-fixed-top a {
         font-size: .8em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
-    }*/
+    }
     .navbar-header .brand {
       color: #fff;
       padding-top: 30px
@@ -328,7 +328,7 @@ header {
     background-image: url("../../img/home.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top center;
 }
 header .logo-top {
   margin: 25vh auto 20px auto;
@@ -354,9 +354,9 @@ header .poster {
   text-transform: none;
 }
 
-/* ABOUT */
-#about {
-
+/* DIRECTOR'S STATEMENT */
+#statement {
+  background-color: #7f8c8d;
 }
 
 /* SUPPORT */
@@ -437,11 +437,16 @@ form .row:first-child .floating-label-form-group {
 
 /* CREDITS */
 #credits {
-  height: 100vh;
-  background-image:url("../../img/credits.png");
+  background-color: #7f8c8d;
+  /*background-image:url("../../img/credits.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom-left;
+  background-position: bottom-left;*/
+}
+.img-cast {
+  margin: 5vh auto;
+  height: 30vh;
+  width: auto;
 }
 
 
