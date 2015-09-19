@@ -44,9 +44,8 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: 'Gravitas One', cursive;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
 }
 h3 {
   margin-top: -5vh;
@@ -219,10 +218,11 @@ section.success {
 /* NAV */
 @media(min-width:768px) {
     .navbar-fixed-top {
+      background-color: transparent;
       display: block;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      transition: all .3s;
     }
     .navbar-fixed-top a {
         font-size: .8em;
@@ -236,6 +236,7 @@ section.success {
       padding-left: 10px;
     }
     .navbar-fixed-top.navbar-shrink {
+      background-color: #3498db;
       -webkit-transition: all .3s;
       -moz-transition: all .3s;
       transition: all .3s;
@@ -258,7 +259,6 @@ section.success {
   color: #C0392B!important;
 }
 .navbar {
-  background-color: #3498db;
   color: #fff;
 }
 .navbar-default .navbar-nav>li>a
@@ -356,7 +356,8 @@ header .poster {
 
 /* DIRECTOR'S STATEMENT */
 #statement {
-  background-color: #7f8c8d;
+  background-color: #222;
+  color: #eee;
 }
 
 /* SUPPORT */
@@ -440,11 +441,8 @@ form .row:first-child .floating-label-form-group {
 
 /* CREDITS */
 #credits {
-  background-color: #7f8c8d;
-  /*background-image:url("../../img/credits.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom-left;*/
+  background-color: #222;
+  color: #eee;
 }
 .img-cast {
   margin: 5vh auto;
