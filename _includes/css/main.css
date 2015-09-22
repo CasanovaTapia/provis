@@ -330,8 +330,8 @@ margin-top: -5px!important;
     background-color: #bababa;
   }
   .btn-fb {
-    position: absolute;
-    margin-top: 500px;
+    position: fixed;
+    left: 100px;
   }
   .img-fb {
     width: auto;
