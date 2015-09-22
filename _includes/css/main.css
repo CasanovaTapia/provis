@@ -254,6 +254,9 @@ section.success {
       width: 100px;
       padding-top: 10px;
     }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+      margin-right: 100px;
+    }
 }
 .navbar-nav>li>a:hover {
   color: #C0392B!important;
@@ -268,7 +271,6 @@ section.success {
 .navbar .navbar-nav {
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-right: 100px;
 }
 .navbar .navbar-nav li a:focus {
     outline: 0;
@@ -313,6 +315,7 @@ margin-top: -5px!important;
 }
 @media(max-width:767px) {
   .navbar {
+    background-color: #3498db;
     height: 50px;
   }
   .img-nav {
@@ -326,6 +329,14 @@ margin-top: -5px!important;
   .navbar .navbar-right:hover, .navbar .navbar-right:focus, .navbar .navbar-right:active  {
     background-color: #bababa;
   }
+  .btn-fb {
+    position: absolute;
+    margin-top: 500px;
+  }
+  .img-fb {
+    width: auto;
+    height: 40px;
+  }
 }
 
 
@@ -334,10 +345,6 @@ header {
     text-align: center;
     height: 100vh;
     color: #eee;
-    background-image: url("../../img/home.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
 }
 header .logo-top {
   margin: 25vh auto 20px auto;
@@ -346,14 +353,19 @@ header .poster {
   margin-top: -10vh;
 }
 @media(min-width:768px) {
-  header .poster {
-    padding-top: 15vh;
+  header {
+    background-image: url("../../img/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
   }
 }
 @media(max-width:767px) {
-  header .poster {
-    display: none;
-    padding-top: 100px;
+  header {
+    background-image: url("../../img/mobile-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
   }
 }
 .head-logo {
@@ -383,7 +395,7 @@ header .poster {
 }
 
 
-
+/* CAST */
 #cast {
  height: 30vh;
 }
@@ -395,6 +407,12 @@ header .poster {
   height: 40vh;
   width: auto;
   margin: 0 auto;
+}
+@media(max-width:767px) {
+  #cast {
+    height: 100vh;
+    overflow-y: auto;
+  }
 }
 
 /* CREDITS */
