@@ -1,8 +1,8 @@
 # Site settings
-title: Duo Film
-email: hello@duo-film.com
-url: https://duo-film.com
-description: "Duo Film"
+title: The Provisionners
+email: hello@provisionner.com
+url: https://provisionner.com
+description: "The Provisonners is a creative group based in Los Angeles. We provide resources for emerging talent."
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
@@ -22,7 +22,7 @@ social:
   - title: instagram
     url: http://instagram.com/casanovatapia
   - title: twitter
-    url: http://twitter.com/karlelandler
+    url: http://twitter.com/casanovatapia
 
 # Build settings
 markdown: kramdown
