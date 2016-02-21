@@ -20,16 +20,7 @@ body {
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
 }
-p {
-    font-size: 1em;
-    line-height: 2em;
-}
-p.small {
-    font-size: .8em;
-}
-a {
-    color: inherit;
-}
+
 a:hover,
 a:focus,
 a:active,
@@ -37,6 +28,19 @@ a.active {
     outline: 0;
     color: #16a085;
     text-decoration: none;
+}
+
+p {
+  font-family: 'Helvetica';
+  font-size: 1.2em;
+  line-height: 2.2em;
+  font-style: bold;
+}
+p.small {
+  font-size: .8em;
+}
+a {
+  color: inherit;
 }
 h1,
 h2,
@@ -237,12 +241,19 @@ margin-top: -5px!important;
 header {
   height: 100vh;
 }
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  padding-top: 45vh;
+}
 .btn-head {
-  position: relative;
+  display: block;
   margin: 0 auto;
   border: solid 2px #fff;
   color: #fff;
   background: 0 0;
+  width: 200px;
 }
 @media(min-width:768px) {
   header {
@@ -253,7 +264,7 @@ header {
   }
   .btn-head {
     padding: 1.5%;
-    margin-top: 40%;
+    margin-top: 100px;
   }
 }
 @media(max-width:767px) {
@@ -265,33 +276,21 @@ header {
   }
   .btn-head {
     padding: 3%;
-    margin-top: 65vh;
+    margin-top: 100px;
   }
 }
 
 /* ABOUT */
-.head-arrow {
-  display: block;
-  margin: auto;
-  padding-bottom: 5vh;
-}
-.about-ps {
-  text-transform: uppercase;
-  letter-spacing: .3em;
-  padding-top: 5em;
-}
 @media(min-width:768px) {
-  .about-desc {
+  #about {
     width: 60%;
-    margin: auto;
-    padding-bottom: 8vh;
+    padding: 20vh 0 20vh 0;
   }
 }
 @media(max-width:767px) {
-  .about-desc {
-    width: 80%;
-    padding-bottom: 5vh;
-    margin: auto;
+  #about {
+    width: 98%;
+    padding: 10vh 0 5vh 0;
   }
 }
 
