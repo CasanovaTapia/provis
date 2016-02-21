@@ -71,6 +71,9 @@ h3 {
     margin: 0 auto;
 }
 
+.title {
+  margin-bottom: 5vh;
+}
 
 /* SECTION */
 section {
